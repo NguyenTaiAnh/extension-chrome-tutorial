@@ -1,0 +1,25 @@
+{
+    "name": "Theme Test Extension",
+    "description" : "The theme",
+    "version" : "0.0.1",
+    "manifest_version" : 2,
+    "browser_action": {
+        "default_title": "Default Title",
+        "default_icon": "icon48.png" 
+    },
+    "permissions":[
+        "activeTab"
+    ],
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+
+    "icons": { 
+        "16": "/icon16.png",
+        "32": "/icon32.png",
+        "48": "/icon48.png",
+        "128": "/icon128.png" 
+    }
+      
+}
